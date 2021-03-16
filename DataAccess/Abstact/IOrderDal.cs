@@ -6,7 +6,7 @@ using System.Text;
 
 namespace DataAccess.Abstact
 {
-    interface ICustomerDal:IEntityRepository<Customer>
+    public interface IOrderDal : IEntityRepository<Order>
     {
     }
 }
